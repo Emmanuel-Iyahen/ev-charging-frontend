@@ -1,5 +1,5 @@
 // API Base URL - Update this to match your backend
-const API_BASE_URL = 'http://localhost:8000';
+const API_BASE_URL = 'https://ev-charging-system-tp1w.onrender.com';
 
 // Create axios instance
 const api = axios.create({
