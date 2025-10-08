@@ -1278,7 +1278,7 @@ function connectWebSocket() {
         }
         
         // Use the correct WebSocket URL
-        const wsUrl = `ws://localhost:8000/charging/ws/charging-updates`;
+        const wsUrl = `ws://https://ev-charging-system-tp1w.onrender.com/charging/ws/charging-updates`;
         console.log('🔄 Connecting to WebSocket...');
         
         chargingSocket = new WebSocket(wsUrl);

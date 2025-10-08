@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:8000';
+const API_BASE_URL = 'https://ev-charging-system-tp1w.onrender.com';
 
 // Generic API call function
 async function apiCall(endpoint, options = {}) {
